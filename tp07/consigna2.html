@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>consigna2</title>
+</head>
+<style>
+    .cuotas {
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .jordan {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .opciones {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        gap: 10px;
+        /*  separa los elemntos de un caja*/
+    }
+
+    .nike {
+        display: flex;
+        align-items: center;
+        /* alinea verticalmente los elementos */
+        justify-content: space-between;
+    }
+
+    .vestimenta {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 10px;
+    }
+
+    .busqueda {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    .filtros {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .filtro {
+        display: flex;
+        gap: 10px;
+    }
+
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+</style>
+
+<body>
+    <header>
+
+        <div class="cuotas">
+            <div>6 cuotas sin interes en todo el sitio</div>
+        </div>
+        <div class="jordan">
+            <div><img src="jordan logo.jpeg" width="70" alt=""></div>
+            <div>
+                <ul class="opciones">
+                    <li>suscribite</li>
+                    <li>buscar tienda</li>
+                    <li>eventos</li>
+                    <li>ayuda</li>
+                    <a href=""></a>
+                </ul>
+            </div>
+        </div>
+        <div class="nike">
+            <img src="nnike.png" width="100" alt="">
+            <div>
+                <ul class="vestimenta">
+                    <li>runnig</li>
+                    <li>hombre</li>
+                    <li>mujer</li>
+                    <li>niño/a</li>
+                    <li>accesorios</li>
+                    <li>glam days</li>
+                    <a href=""></a>
+                </ul>
+            </div>
+            <div class="busqueda">
+                <div><img src="lupa de busqueda.png" width="20px" alt=""></div>
+                <input type="text" id="buscar" name="buscar" required>
+                <div> <img src="cesto.png" width="20px" alt=""></div>
+            </div>
+        </div>
+
+        <main>
+            <div class="filtros">
+                <div>80 productos</div>
+                <div class="filtro">
+                    <div>ocultar filtros</div>
+                    <div>
+                        <img src="flechas.png" width="25px" alt="">
+                    </div>
+                    <div>ordenar por mas reciente</div>
+                    <img src="flechaaa.png" width="10px" alt="">
+                </div>
+            </div>
+
+            <div class="productos">
+                <div class="producto">
+                    <img src="botines.png" width="300px" alt="botines">
+
+                    <div class="lo nuevo">
+                        <div>
+                            <p style="color: orange;">lo nuevo</p>
+                            <div>
+                                <p>Premier League Academy<br>
+                            </div>
+                            <div>
+                                <p style="color: grey;">Pelota De Futbol Unisex</p>
+                            </div>
+                            <div style="font-weight: 900;font-size: 1.em;">$60.909</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="pelotariver.img" width="300px" alt="pelota river">
+                    <div class="lo nuevo">
+                        <div>
+                            <p style="color: orange;">lo nuevo</p>
+                            <div>
+                                <p>Jan<br>
+                            </div>
+                            <div>
+                                <p style="color: grey;">Mochila Jordan Para Niño/a</p>
+                            </div>
+                            <div style="font-weight: 900;font-size: 1.em;">$52.000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="pelotapremier.img" width="300px" alt="pelota premier">
+
+                    <div class="lo nuevo">
+                        <div>
+                            <p style="color: orange;">lo nuevo</p>
+                            <div>
+                                <p>Premier League fight<br>
+                            </div>
+                            <div>
+                                <p style="color: grey;">Pelota De Futbol Unisex</p>
+                            </div>
+                            <div style="font-weight: 900;font-size: 1.em;">$230.000</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="futsal.img" width="300px" alt="pelota futsal">
+                    <div class="lo nuevo">
+                        <div>
+                            <p style="color: orange;">lo nuevo</p>
+                            <div>
+                                <p>Nike Futsal Pro<br>
+                            </div>
+                            <div>
+                                <p style="color: grey;">Pelota De Futbol Unisex</p>
+                            </div>
+                            <div style="font-weight: 900;font-size: 1.em;">$84.000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="gorra.img" width="300px" alt="botines">
+
+                    <div class="lo nuevo">
+                        <div>
+                            <p style="color: orange;">lo nuevo</p>
+                            <div>
+                                <p>Nike Drifit Rise<br>
+                            </div>
+                            <div>
+                                <p style="color: grey;">Gorra De Moda Unisex</p>
+                            </div>
+                            <div style="font-weight: 900;font-size: 1.em;">$51.999</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="vinchanike.img" width="300px" alt="botines">
+
+                    <div class="lo nuevo">
+                        <div>
+                            <p style="color: orange;">lo nuevo</p>
+                            <div>
+                                <p>nike fury<br>
+                            </div>
+                            <div>
+                                <p style="color: grey;">vincha de entrenamiento para mujer</p>
+                            </div>
+                            <div style="font-weight: 900;font-size: 1.em;">$30.000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div>
+                    <ul>
+                        <li><a class="footer_text" href=""> BUSCAR TIENDA</a></li>
+                        <li><a class="footer_text" href="">SUMATE A LA COMUNIDAD</a></li>
+                        <li><a class="footer_text" href=""> SEGUI TU PEDIDO</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a class="footer_text" href="">AYUDA</a></li>
+                        <li><a class="footer_text" href="">envios y entregas</a></li>
+                        <li><a class="footer_text" href="">devoluciones </a></li>
+                        <li><a class="footer_text" href="">cambios </a></li>
+                        <li><a class="footer_text" href="">Autogestionar mi devolucion</a></li>
+                        <li><a class="footer_text" href="">Opciones de pago </a></li>
+                        <li><a class="footer_text" href="">Contactate</a></li>
+                        <li><a class="footer_text" href="">Defensa al consumidor</a></li>
+                        <li><a class="footer_text" href="">libro de quejas online</a></li>
+                        <li><a class="footer_text" href="">Boton de arrepentimiento</a></li>
+                        <li><a class="footer_text" href="">ver todos</a></li>
+                    </ul>
+                </div>
+                <ul>
+                    <li><a class="footer_text" href=""> BUSCAR TIENDA</a></li>
+                    <li><a class="footer_text" href="">SUMATE A LA COMUNIDAD</a></li>
+                    <li><a class="footer_text" href=""> SEGUI TU PEDIDO</a></li>
+                </ul>
+                <div>
+                    <ul>
+                        <li><a class="footer_text" href="">ACERCA DE NIKE</a></li>
+                        <li><a class="footer_text" href="">Proposito</a></li>
+                        <li><a class="footer_text" href="">Noticias</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a class="footer_text" href="">NOVEDADES DE NIKE</a></li>
+                        <li><a class="footer_text" href="">Encontra tu calzado</a></li>
+                        <li><a class="footer_text" href="">¿Como elegir tu top?</a></li>
+                        <li><a class="footer_text" href=""></a>Tipo de saludables</li>
+                        <li><a class="footer_text" href=""></a>Promociones</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </header>
+</body>
+
+</html>
